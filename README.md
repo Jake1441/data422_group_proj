@@ -10,6 +10,12 @@ We wanted to build an app that grabs the Vehicle Kilometres Travelled from the g
 
 # 20/09/2023
 First team meet up for dataset work and prep for prototyping
+We covered
+- Trello
+- Github
+- Datasets
+
+How we wanted to communicate ie whatsapp
 
 # 27/09/2023
 Discussed getting fields from the CAS csv to minimise the amount of fields in the new flatfile dataframe
