@@ -7,6 +7,10 @@ By Jacob Reid, Katie, Rick
 We wanted to build an app that grabs the Vehicle Kilometres Travelled from the government site and combine it with fuel prices by car type, the information is valuable especially in cases where there might be natural disasters to give an indication of what vehicles are most likely to consistently be used across a range of years and when the unusual events happen.
 
 # Project Notes
+
+# 20/09/2023
+First team meet up for dataset work and prep for prototyping
+
 # 27/09/2023
 Discussed getting fields from the CAS csv to minimise the amount of fields in the new flatfile dataframe
 Discussed how to wrangle the data and deal with not manipulating the main CAS CSV
