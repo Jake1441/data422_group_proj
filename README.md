@@ -4,7 +4,7 @@ Data422 Group Project
 By Jacob Reid, Katie, Rick
 
 # Topic
-We wanted to build an app that grabs the Vehicle Kilometres Travelled from the government site and combine it with fuel prices by car type, the information is valuable especially in cases where there might be natural disasters to give an indication of what vehicles are most likely to consistently be used across a range of years and when the unusual events happen.
+We wanted to build an app that grabs the Vehicle Kilometres Travelled from the government site and the average fuel price per vehicle class using randomised vehicle types.
 
 # Project Notes
 
@@ -72,7 +72,10 @@ VKT some new fields that might be useful are
   - Using this field maybe we can do the following
   - Work out how much it costs to travel yearly or monthly or weekly by combining
       - Find out how many tank refuels are needed over this period (likely to be calculated from other fields)
-   
+
+Divide work out to each member using Trello and work through questions for Katies Monday DATA422 Lab time.
+Set a time to meet on Tuesday 1pm with our jupyter dataframes sorted
+
 What story does this tell us?
 Well if a oil company or the government wants to survey areas and costs for vehicles (assuming each region accurately calculates fuel price by type) they can work through how much fuel could be imported 
 They can work through what class might travel the most than making assumptions ie saying Trucks might be correct but automation tasks allow for changes, thinking if say a quake happens and trucks are not feasible the car type and distance travelled may not be so certain
