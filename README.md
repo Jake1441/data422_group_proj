@@ -76,6 +76,33 @@ VKT some new fields that might be useful are
 Divide work out to each member using Trello and work through questions for Katies Monday DATA422 Lab time.
 Set a time to meet on Tuesday 1pm with our jupyter dataframes sorted
 
+# 07/10/2023
+JAR141 Started work on Fuel Prices
+- Found 3 datasets to try
+- Kaggle
+- Data.world
+- MBIE
+
+The first two required log ins and Kaggle seemed to be a bit more complex to log into to find the dataset
+Data.world offered a more reasonable login but R could not impute the username or password fields with a name as the form fields did not
+have names. 
+
+MBIE rejected scraping with 403 errors on campus 
+
+Overall ended up choosing Overseas Trade Indexes (Prices and Volumes) from 
+https://catalogue.data.govt.nz/dataset?q=fuel+price&sort=score+desc%2C+metadata_modified+desc
+
+and finding a link from Stats NZ to download.
+Tried a form of scraping the site using the web tools but the site uses xml_document may try t his under julia and get lab help hopefully
+on Wendesday and Thursday to try and achieve something using julia to scrape the goverment site and provide the xlsx file for R to use.
+
+for now, R just downloads the xslx link directly,
+
+interestingly the data is ok when opened in excel but the same data and table is not interpreted the same by R leading to far more missing data values
+it looks to be more that some of the data might be circular (imputed by a formula on loading excel) and or is just not able to be completely read by the R
+excel function.
+
+
 What story does this tell us?
 Well if a oil company or the government wants to survey areas and costs for vehicles (assuming each region accurately calculates fuel price by type) they can work through how much fuel could be imported 
 They can work through what class might travel the most than making assumptions ie saying Trucks might be correct but automation tasks allow for changes, thinking if say a quake happens and trucks are not feasible the car type and distance travelled may not be so certain
