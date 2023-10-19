@@ -1,0 +1,17 @@
+﻿Brand,Model,Type,Engine,Fuel Type,Fuel cost per litre,,,Fuel efficiency (L/100km),,,Driving range (KMs),,,Number of fills required,,Annual fuel cost (NZD),,Cost difference 2013-2023
+,,,,,,Fuel cost per litre,Tank size 2023 (L),"2,013","2,023",Difference 2013-2023,2013 range,2023 range,Range difference 2013-2023,2013 fills,2023 fills,2013 cost,2023 cost,
+Toyota,RAV4,2WD 2.5L Hybrid,Hybrid,Hybrid,91,$2.36,55,8,5,4,655,"1,170",515,16,9,"$ 2,076.80","$ 1,168.20",$ 908.60
+Toyota,Corolla,Ascent Sport Hybrid,Hatchback,Hybrid,91,$2.36,50,7,4,3,758,"1,250",492,14,8,"$ 1,652.00",$ 944.00,$ 708.00
+Ford,Ranger,XL 2.0L 6x2 Hi-Rider Double Cab,Ute,Diesel,Diesel,$1.88,80,10,8,2,816,"1,053",236,13,10,"$ 1,955.20","$ 1,504.00",$ 451.20
+Mitsubishi,Triton,GLX 4WD Auto,Ute,Diesel,Diesel,$1.88,75,10,9,1,758,872,115,14,12,"$ 1,974.00","$ 1,692.00",$ 282.00
+Kia,Sportage,S Petrol Manual,SUV,Petrol,91,$2.36,54,9,8,1,621,701,81,17,15,"$ 2,166.48","$ 1,911.60",$ 254.88
+Hyundai,Kona,Smartstream G2.0 Atkinson,Hatchback,Petrol,91,$2.36,50,7,6,1,694,806,112,15,13,"$ 1,770.00","$ 1,534.00",$ 236.00
+Honda,Jazz,Crosstar 1.5L Auto,Hatchback,Petrol,91,$2.36,40,7,6,1,606,690,84,17,15,"$ 1,604.80","$ 1,416.00",$ 188.80
+Suzuki,Swift,GL Manual,Hatchback,Petrol,91,$2.36,37,6,5,1,673,804,132,15,13,"$ 1,309.80","$ 1,135.16",$ 174.64
+Toyota,HiLux,Single-Cab WorkMate,Ute,Diesel,Diesel,$1.88,80,8,7,1,988,"1,081",93,11,10,"$ 1,654.40","$ 1,504.00",$ 150.40
+Isuzu,D-Max,4x2 High Ride 1.9L Single Cab SX Manual,Ute,Diesel,Diesel,$1.88,76,8,7,1,916,"1,086",170,11,10,"$ 1,571.68","$ 1,428.80",$ 142.88
+Mitsubishi,Outlander PHEV,Plug-in Hybrid EV AWD,Hybrid,Hybrid,91,$2.36,56,2,2,0,"2,947","3,733",786,4,3,$ 528.64,$ 396.48,$ 132.16
+Volkswagen,Golf,1.4L TSI 8 Speed Auto,Hatchback,Petrol,95,$2.56,50,6,6,0,806,862,56,13,12,"$ 1,664.00","$ 1,536.00",$ 128.00
+Hyundai,Santa Fe,Smartstream D2.2,SUV,Diesel,Diesel,$1.88,67,7,6,1,918,"1,098",181,11,10,"$ 1,385.56","$ 1,259.60",$ 125.96
+Nissan,X-Trail,ST 2.5L FWD,SUV,Petrol,91,$2.36,55,7,7,−0,764,743,−21,14,14,"$ 1,817.20","$ 1,817.20",$ -
+Subaru,Impreza,2.0i Premium AWD,Hatchback,Petrol,91,$2.36,50,7,7,0,735,758,22,14,14,"$ 1,652.00","$ 1,652.00",$ -
