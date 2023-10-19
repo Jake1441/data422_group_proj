@@ -1,7 +1,8 @@
 # data422_group_proj
 Data422 Group Project
 
-By Jacob Reid, Katie, Rick
+By Jacob Reid
+DATA422 Group Project Lead
 
 # Topic
 We wanted to build an app that grabs the Vehicle Kilometres Travelled from the government site and the average fuel price per vehicle class using randomised vehicle types.
