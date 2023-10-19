@@ -102,7 +102,93 @@ interestingly the data is ok when opened in excel but the same data and table is
 it looks to be more that some of the data might be circular (imputed by a formula on loading excel) and or is just not able to be completely read by the R
 excel function.
 
+# 08/10/2023
+Discuss Fuel prices excel file with Rick
+We looked at scraping gaspy through R but had issues
+Jacob established that RSelenium set up seemed to require more complexity than could be easily achieved based
+on docs from installing chromium web driver, java and linux
+
+Jacob will look at graphs using Julia so we can have visulisations ready once the dataset is ready.
+A databased planning flowchart would be helpful
+
 
 What story does this tell us?
 Well if a oil company or the government wants to survey areas and costs for vehicles (assuming each region accurately calculates fuel price by type) they can work through how much fuel could be imported 
 They can work through what class might travel the most than making assumptions ie saying Trucks might be correct but automation tasks allow for changes, thinking if say a quake happens and trucks are not feasible the car type and distance travelled may not be so certain
+
+# 09/10/2023
+Begin looking at different julia graphs https://juliagraphs.org/packages/
+
+# 10/10/2023
+Jacob
+Created graphs to test ability to graph fuel prices using histograms, box plots, plots, scatter plots, density plot and
+a linear regression model.
+
+Katie
+Found a stuff.co.nz car type article with light vehicles, has chosen to only use the light vehicle for the datasets as trucks and bus tank size is difficult to find.
+
+discussion on how to deal with the 2010/11 field cost being high
+a suggestion was we just impute it based on a fleet of 10 vehicles, the target of our project will want to project the cost for
+a fleet of 10 vehicles.
+
+This may rule out regions as finding specific fuel prices and scraping them for region has been difficult.
+
+Saved figures to temp project directory (not on onedrive) so plots will eventually
+be saved disk for viewing
+
+Gather presentation templates to look at stylising presentation
+# 11/10/2023
+Discussed VKT dataset with tutors 
+worked out with them long dataframe might be a better approach
+
+Worked out the authority type for VKT would be 'National'
+and the car type would be 'Light (Car, LCV)'
+We realised this flattened out the VKT dataset with one row
+containing every data and the KMS per year given were confusingly large.
+
+We adapted the dataset to be a new VKT dataset based on
+the years in the weekly fuel prices (2004-2023) We
+decided on two vehicles per years and the following rules.
+
+- vehicles per year (combine {make, model})
+- a fleet of 10 vehicles:
+  the calculation will be kms travelled 10*(2013 range * 26 refuels)
+- 26 refuels is two weekly refuels a arbitrary number to work distance travelled
+- get fuel cost per fleet of 10 vehicles based on tank size, fuel costs and refuels
+	10 * ((55 * 26) * 2.38)
+
+Divide the work out,
+Katie: Get year, random  unique vehicle and fuel type
+Rick: Get KMs travelled, Fuel costs, these will be calculated
+Jacob: Finalise using Julia graphs and sort out presentation and project report
+
+# 12/10/2023
+Further work on presentation and finding some templates to use, 
+prepare for report writing.
+
+# 13/10/2023
+Covered more work on presentation and commenced writing up draft project report
+
+# 14/10/2023
+No work done
+
+# 15/10/2023
+Created basic Entity Relationship Diagram using R
+
+# 16/10/2023
+
+Start work on graphing fuel types
+cleaned up plots into a plot function (one field only)
+
+Collect linear regression model code to start configuring for final graphing
+created a text file called JuliaLinRegressionModel_Code to test linear regression
+
+created a jupyter notebook to test the code before implementing it into the final julia graphing
+created a lineaadapted linear regression model to fuel prices based on diesel and regular petrol.
+premium petrol has too little fields at the moment .
+
+FuelCost	Freq
+String	Int64
+1	Diesel	100
+2	Regular_Petrol	180
+3	Premium_Petrol_95R	20
